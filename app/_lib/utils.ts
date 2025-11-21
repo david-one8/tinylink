@@ -25,5 +25,5 @@ export function truncateUrl(url: string, maxLength: number = 50): string {
 }
 
 export function getBaseUrl(): string {
-  return process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+  return process.env.NEXT_PUBLIC_BASE_URL || 'https://tinylink-vert.vercel.app/';
 }
